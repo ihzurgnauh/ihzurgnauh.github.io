@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ihzurgnauh.github.io</id>
+    <title>ihzurgnauh</title>
+    <updated>2024-02-19T09:41:08.129Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>ihzurgnauh</name>
+        <email>ihzur@qq.com</email>
+        <uri>https://ihzurgnauh.github.io</uri>
+    </author>
+    <link rel="alternate" href="https://ihzurgnauh.github.io"/>
+    <link rel="self" href="https://ihzurgnauh.github.io/feed.atom"/>
+    <subtitle>ihzurgnauh' Blog</subtitle>
+    <logo>https://ihzurgnauh.github.io/avatar.png</logo>
+    <icon>https://ihzurgnauh.github.io/logo.png</icon>
+    <rights>CC BY-NC-SA 4.0 2023 © ihzurgnauh</rights>
+    <entry>
+        <title type="html"><![CDATA[记忆与印象]]></title>
+        <id>https://ihzurgnauh.github.io/posts/memories-and-impressions</id>
+        <link href="https://ihzurgnauh.github.io/posts/memories-and-impressions"/>
+        <updated>2023-09-30T10:03:12.000Z</updated>
+        <content type="html"><![CDATA[<p>每年只有这个时候记忆才是清晰的，和更多的怀念，也只能怀念。</p>
+<img src='https://s11.ax1x.com/2023/10/21/pikeG2n.jpg' alt='记忆中的山'/>
+<center><span style="font-size: small;">记忆中的山</span></center>
+<img src='https://s11.ax1x.com/2023/10/21/pike88s.jpg' alt='傍晚趴在门前空地的狗'/>
+<center><span style="font-size: small;">傍晚趴在门前空地的狗</span></center>
+]]></content>
+        <author>
+            <name>ihzurgnauh</name>
+            <email>ihzur@qq.com</email>
+            <uri>https://ihzurgnauh.github.io</uri>
+        </author>
+    </entry>
+</feed>
