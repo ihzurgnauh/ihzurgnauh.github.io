@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ihzurgnauh</title>
+        <link>https://ihzurgnauh.github.io</link>
+        <description>ihzurgnauh' Blog</description>
+        <lastBuildDate>Sun, 23 Jun 2024 07:40:12 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>ihzurgnauh</title>
+            <url>https://ihzurgnauh.github.io/avatar.png</url>
+            <link>https://ihzurgnauh.github.io</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2023 © ihzurgnauh</copyright>
+        <atom:link href="https://ihzurgnauh.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[记忆与印象]]></title>
+            <link>https://ihzurgnauh.github.io/posts/memories-and-impressions</link>
+            <guid>https://ihzurgnauh.github.io/posts/memories-and-impressions</guid>
+            <pubDate>Sat, 30 Sep 2023 10:03:12 GMT</pubDate>
+            <content:encoded><![CDATA[<p>每年只有这个时候记忆才是清晰的，以及更强烈的怀念，但也只能怀念。</p>
+<p><img src="https://s11.ax1x.com/2023/10/21/pikeG2n.jpg" alt="每年都要来的山"></p>
+<p><img src="https://s11.ax1x.com/2023/10/21/pike88s.jpg" alt="傍晚趴在门前空地的狗"></p>
+]]></content:encoded>
+            <author>ihzur@qq.com (ihzurgnauh)</author>
+        </item>
+        <item>
+            <title><![CDATA[使用hugo搭建静态博客]]></title>
+            <link>https://ihzurgnauh.github.io/notes/hugo-build-static-blog</link>
+            <guid>https://ihzurgnauh.github.io/notes/hugo-build-static-blog</guid>
+            <pubDate>Sat, 28 Jan 2023 03:13:35 GMT</pubDate>
+            <content:encoded><![CDATA[<p>[[toc]]</p>
+<h2>Hugo介绍</h2>
+<p>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。Hugo这样的选择允许您简化堆栈，编写markdown文档，处理更新和自定义内容，从而生成网站。</p>
+<h2>安装Hugo</h2>
+<p>安装方式有很多种，参考<a href="https://www.gohugo.org/doc/overview/installing/">官方文档</a>安装即可，Windows可下载对应的操作系统版本的Hugo二进制文件，然后将二进制文件的放置路径配置在环境变量中。</p>
+<pre><code class="language-bash">hugo version # 查看版本，验证安装情况
+</code></pre>
+<h2>生成站点</h2>
+<p>安装完成后，使用下面命令生成站点。</p>
+<pre><code class="language-bash">hugo new site blogDemo # 使用Hugo新建blogDemo项目，名称可自定义
+</code></pre>
+<p><strong>注意，创建完项目后再使用<code>hugo</code>命令时，当前目录下必须要有配置文件，即<code>config.toml</code>，否则会报错</strong></p>
+<p>然后进入 blogDemo目录可以看到网站的文件目录。</p>
+<pre><code class="language-bash">cd blogDemo # 进入blogDemo目录
+</code></pre>
+<h2>安装主题</h2>
+<p>Hugo的官网<a href="https://themes.gohugo.io/">主题</a>种类很多，基本能满足各类需求，安装只需把对应的主题clone到themes目录，具体的主题配置参考其文档即可，这里就以<a href="https://github.com/olOwOlo/hugo-theme-even">even主题</a>为例。</p>
+<pre><code class="language-bash">git clone https://github.com/olOwOlo/hugo-theme-even.git
+</code></pre>
+<h2>本地调试</h2>
+<p>安装完主题后，在网站的配置文件目录，输入下面命令，就可以在本地预览了，服务器的默认地址是<a href="http://localhost:1313/">http://localhost:1313/</a>, 端口号可以通过 -p 参数自定义端口来修改。</p>
+<pre><code class="language-bash">hugo server # 启动本地调试服务
+</code></pre>
+<p>至此就可以在content下的post目录中添加文章，进行创作记录了。</p>
+<pre><code class="language-bash">hugo new post/demo.md
+# hugo new的命令格式
+# hugo new [path]
+</code></pre>
+]]></content:encoded>
+            <author>ihzur@qq.com (ihzurgnauh)</author>
+        </item>
+    </channel>
+</rss>
