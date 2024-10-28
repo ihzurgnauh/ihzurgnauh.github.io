@@ -1,0 +1,54 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "ihzurgnauh",
+    "home_page_url": "https://ihzurgnauh.github.io",
+    "feed_url": "https://ihzurgnauh.github.io/feed.json",
+    "description": "ihzurgnauh Blog feed.",
+    "icon": "https://ihzurgnauh.github.io/avatar.png",
+    "author": {
+        "name": "ihzurgnauh",
+        "url": "https://ihzurgnauh.github.io"
+    },
+    "items": [
+        {
+            "content_html": "<p>无法看见思念。</p>\n<p><img src=\"https://s21.ax1x.com/2024/10/24/pAwFkLj.jpg\" alt=\"-\"></p>\n",
+            "url": "https://ihzurgnauh.github.io/posts/miss-unseen",
+            "title": "看不见",
+            "date_modified": "2024-10-05T10:22:03.000Z",
+            "author": {
+                "name": "ihzurgnauh",
+                "url": "https://ihzurgnauh.github.io"
+            }
+        },
+        {
+            "content_html": "<p>[[toc]]</p>\n<h3>1.安装nvm</h3>\n<p>这里使用nvm<a href=\"%5Bnvm%5D(https://github.com/nvm-sh/nvm)%E6%98%AF%E4%B8%80%E4%B8%AA%E7%AE%A1%E7%90%86node.js%E7%89%88%E6%9C%AC%E7%9A%84%E5%B7%A5%E5%85%B7\">^1</a>来进行node的版本控制</p>\n<pre><code class=\"language-bash\">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash \n</code></pre>\n<p>使配置生效，这里使用了zsh</p>\n<pre><code class=\"language-bash\">source ~/.zshrc  \n</code></pre>\n<p>验证nvm安装情况</p>\n<pre><code>nvm -v\n</code></pre>\n<h3>2.安装node.js</h3>\n<p>列出node可用版本</p>\n<pre><code class=\"language-bash\">nvm ls-remote  \n</code></pre>\n<p>安装指定版本，这里安装18.20.3</p>\n<pre><code class=\"language-bash\">nvm install 18.20.3 \n</code></pre>\n<h3>3.更换npm源</h3>\n<p>更换npm为国内源</p>\n<pre><code class=\"language-bash\">npm config set registry https://registry.npmmirror.com \n</code></pre>\n<h3>4.使用npm安装pnpm</h3>\n<pre><code class=\"language-bash\">npm install -g pnpm \n</code></pre>\n",
+            "url": "https://ihzurgnauh.github.io/notes/in-ubuntu-setting-node-environment",
+            "title": "在ubuntu中搭建node环境",
+            "date_modified": "2024-06-12T08:41:33.000Z",
+            "author": {
+                "name": "ihzurgnauh",
+                "url": "https://ihzurgnauh.github.io"
+            }
+        },
+        {
+            "content_html": "<p>每年只有这个时候记忆才是清晰的，以及更强烈的怀念，也只能怀念。</p>\n<p><img src=\"https://s11.ax1x.com/2023/10/21/pikeG2n.jpg\" alt=\"每年都要来的山\"></p>\n<p><img src=\"https://s11.ax1x.com/2023/10/21/pike88s.jpg\" alt=\"傍晚趴在门前空地的狗\"></p>\n",
+            "url": "https://ihzurgnauh.github.io/posts/memories-and-impressions",
+            "title": "记忆与印象",
+            "date_modified": "2023-09-30T10:03:12.000Z",
+            "author": {
+                "name": "ihzurgnauh",
+                "url": "https://ihzurgnauh.github.io"
+            }
+        },
+        {
+            "content_html": "<p>[[toc]]</p>\n<h2>什么是Hugo？</h2>\n<p><a href=\"https://gohugo.io/\">Hugo</a>是一个快速且灵活的静态网站生成器，用于创建博客、文档和其他类型的网站。它使用Go语言编写，具有高性能和简便的使用体验，允许用户通过 Markdown 文件来管理内容，并支持主题定制和多种输出格式。</p>\n<h2>安装Hugo</h2>\n<p>安装方式有很多种，参考<a href=\"https://gohugo.io/installation/\">官方文档</a>安装即可，Windows可下载对应的操作系统版本的Hugo二进制文件，并将二进制文件的放置路径配置在环境变量中，即可使用Hugo CLI来快速创建静态网站。</p>\n<pre><code class=\"language-bash\">hugo version # 查看版本，验证安装情况\n</code></pre>\n<h2>生成站点</h2>\n<p>安装完成后，使用下面命令生成站点。</p>\n<pre><code class=\"language-bash\">hugo new site blogDemo # 使用Hugo新建blogDemo项目，名称可自定义\n</code></pre>\n<p><strong>注意，创建完项目后再使用<code>hugo</code>命令时，当前目录下必须要有配置文件，即<code>config.toml</code>，否则会报错</strong></p>\n<p>用 Hugo 创建的网站共有 7 个文件夹和 1 个文件，这些文件分别代表</p>\n<ul>\n<li>\n<p><strong>archetypes</strong>：存放用 hugo 命令新建的 Markdown 文件应用的 front matter 模版</p>\n</li>\n<li>\n<p><strong>content</strong>：存放内容页面，比如博客、笔记等</p>\n</li>\n<li>\n<p><strong>layouts</strong>：存放定义网站的样式，写在<code>layouts</code>文件下的样式会覆盖安装的主题中的 <code>layouts</code>文件同名的样式</p>\n</li>\n<li>\n<p><strong>static</strong>：存放所有静态文件，如图片</p>\n</li>\n<li>\n<p><strong>data</strong>：存放创建站点时 Hugo 使用的其他数据</p>\n</li>\n<li>\n<p><strong>public</strong>：存放 Hugo 生成的静态网页</p>\n</li>\n<li>\n<p><strong>themes</strong>：存放主题文件</p>\n</li>\n<li>\n<p><strong>config.toml</strong>：网站配置文件</p>\n</li>\n</ul>\n<p>然后进入 blogDemo目录可以看到网站的文件目录。</p>\n<pre><code class=\"language-bash\">cd blogDemo # 进入blogDemo目录\n</code></pre>\n<h2>安装主题</h2>\n<p>Hugo的官网<a href=\"https://themes.gohugo.io/\">主题</a>种类很多，基本能满足各类需求，安装只需把对应的主题clone到themes目录，具体的主题配置参考其文档即可，这里就以<a href=\"https://github.com/olOwOlo/hugo-theme-even\">even主题</a>为例。</p>\n<pre><code class=\"language-bash\">git clone https://github.com/olOwOlo/hugo-theme-even.git\n</code></pre>\n<h2>本地调试和预览</h2>\n<p>安装完主题后，在网站的配置文件目录，输入下面命令，就可以在本地预览了，服务器的默认地址是<TextCopy inline><a href=\"http://localhost:1313/\">http://localhost:1313/</a></TextCopy>, 端口号可以通过 <strong>-p</strong> 参数自定义端口来修改。</p>\n<pre><code class=\"language-bash\">hugo server # 启动本地调试服务\n</code></pre>\n<p>至此就可以在content下的post目录中添加文章，进行创作记录了。</p>\n<pre><code class=\"language-bash\">hugo new post/demo.md\n# hugo new的命令格式\n# hugo new [path]\n</code></pre>\n<h2>构建网站</h2>\n<p>最后再通过下面命令，即可在<strong>public</strong>目录生成构建的产物，最后把生成的文件部署上服务器即可。</p>\n<pre><code class=\"language-bash\">hugo build # 生成静态网站\nhugo --minify # 生成静态网站并进行压缩，可减少产物大小，建议使用该命令\n</code></pre>\n",
+            "url": "https://ihzurgnauh.github.io/notes/hugo-build-static-blog",
+            "title": "使用hugo搭建静态博客",
+            "date_modified": "2023-01-28T03:13:35.000Z",
+            "author": {
+                "name": "ihzurgnauh",
+                "url": "https://ihzurgnauh.github.io"
+            }
+        }
+    ]
+}
