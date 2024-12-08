@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ihzurgnauh</title>
+        <link>https://ihzurgnauh.github.io</link>
+        <description>在循环往复的时空中，将时间的痕迹存储于此</description>
+        <lastBuildDate>Sun, 08 Dec 2024 10:49:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>ihzurgnauh</title>
+            <url>https://ihzurgnauh.github.io/avatar.png</url>
+            <link>https://ihzurgnauh.github.io</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2023-PRESENT © ihzurgnauh</copyright>
+        <atom:link href="https://ihzurgnauh.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[看不见]]></title>
+            <link>https://ihzurgnauh.github.io/posts/miss-unseen</link>
+            <guid>https://ihzurgnauh.github.io/posts/miss-unseen</guid>
+            <pubDate>Sat, 05 Oct 2024 10:22:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p>无法看见思念。</p>
+<p><img src="https://s2.loli.net/2024/12/03/L5lAKi4o87fD3Th.jpg" alt="-"></p>
+]]></content:encoded>
+            <author>zhiruhuang7@gmail.com (ihzurgnauh)</author>
+        </item>
+        <item>
+            <title><![CDATA[在ubuntu中搭建node环境]]></title>
+            <link>https://ihzurgnauh.github.io/notes/in-ubuntu-setting-node-environment</link>
+            <guid>https://ihzurgnauh.github.io/notes/in-ubuntu-setting-node-environment</guid>
+            <pubDate>Wed, 12 Jun 2024 08:41:33 GMT</pubDate>
+            <content:encoded><![CDATA[<p>[[toc]]</p>
+<h2>1.安装nvm</h2>
+<p>为了后面可以方便的使用多个node版本，这里使用nvm<a href="%5Bnvm%5D(https://github.com/nvm-sh/nvm)%E6%98%AFnode.js%E7%9A%84%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8%EF%BC%8C%E6%97%A8%E5%9C%A8%E6%8C%89%E7%94%A8%E6%88%B7%E5%AE%89%E8%A3%85%EF%BC%8C%E5%B9%B6%E6%8C%89shell%E8%B0%83%E7%94%A8%E3%80%82%E7%AE%80%E8%80%8C%E8%A8%80%E4%B9%8B%E5%B0%B1%E6%98%AF%E4%B8%80%E4%B8%AA%E7%AE%A1%E7%90%86node.js%E7%89%88%E6%9C%AC%E7%9A%84%E5%B7%A5%E5%85%B7%E3%80%82">^1</a>来进行版本管理</p>
+<pre><code class="language-bash">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash 
+</code></pre>
+<p>使配置生效，具体的配置文件就按照所使用的shell，这里使用了<a href="https://www.zsh.org/">zsh</a></p>
+<pre><code class="language-bash">source ~/.zshrc  
+</code></pre>
+<p>验证nvm安装情况</p>
+<pre><code class="language-bash">nvm -v
+</code></pre>
+<h2>2.安装node.js</h2>
+<p>列出node可用版本</p>
+<pre><code class="language-bash">nvm ls-remote  
+</code></pre>
+<p>可根据所列出的版本来选择安装，这里安装18.20.3</p>
+<pre><code class="language-bash">nvm install 18.20.3 
+</code></pre>
+<h2>3.更换npm源</h2>
+<p>更换npm为国内源</p>
+<pre><code class="language-bash">npm config set registry https://registry.npmmirror.com 
+</code></pre>
+<h2>4.使用npm安装pnpm</h2>
+<pre><code class="language-bash">npm install -g pnpm 
+</code></pre>
+]]></content:encoded>
+            <author>zhiruhuang7@gmail.com (ihzurgnauh)</author>
+        </item>
+        <item>
+            <title><![CDATA[一些电线杆]]></title>
+            <link>https://ihzurgnauh.github.io/posts/traces-of-utility-pole</link>
+            <guid>https://ihzurgnauh.github.io/posts/traces-of-utility-pole</guid>
+            <pubDate>Fri, 22 Mar 2024 15:49:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>对电线杆总有一种描述不清的喜欢。凝练的线条互相交错，向四周不断延伸，连接着人与万物；简单的空间切割，却刻画出文明的痕迹。</p>
+<p><img src="https://s2.loli.net/2024/12/07/4na7DulUmZdLk5Q.jpg" alt=""></p>
+<p><img src="https://s2.loli.net/2024/12/07/WSegmK31wIG7N2U.jpg" alt=""></p>
+<p><img src="https://s2.loli.net/2024/12/07/G9m1TdzSRtBLfin.jpg" alt=""></p>
+<p><img src="https://s2.loli.net/2024/12/07/N6wZShouRfspeMI.jpg" alt=""></p>
+<p><img src="https://s2.loli.net/2024/12/07/Zq1swxfdG2QAV5r.jpg" alt=""></p>
+<p><img src="https://s2.loli.net/2024/12/07/O2rV6LAN8CEh9QG.jpg" alt="-"></p>
+]]></content:encoded>
+            <author>zhiruhuang7@gmail.com (ihzurgnauh)</author>
+        </item>
+        <item>
+            <title><![CDATA[记忆和怀念]]></title>
+            <link>https://ihzurgnauh.github.io/posts/memories-and-nostalgia</link>
+            <guid>https://ihzurgnauh.github.io/posts/memories-and-nostalgia</guid>
+            <pubDate>Sat, 30 Sep 2023 10:03:12 GMT</pubDate>
+            <content:encoded><![CDATA[<p>每年这个时候记忆才是清晰的，以及强烈的怀念，也只能怀念。</p>
+<p><img src="https://s2.loli.net/2024/12/03/XePnYqS2H593I8W.jpg" alt="每年都要来的山"></p>
+<p><img src="https://s2.loli.net/2024/12/03/veL3kB5gAwE4nTP.jpg" alt="印象中还是它小时候"></p>
+]]></content:encoded>
+            <author>zhiruhuang7@gmail.com (ihzurgnauh)</author>
+        </item>
+        <item>
+            <title><![CDATA[使用hugo搭建静态博客]]></title>
+            <link>https://ihzurgnauh.github.io/notes/hugo-build-static-blog</link>
+            <guid>https://ihzurgnauh.github.io/notes/hugo-build-static-blog</guid>
+            <pubDate>Sat, 28 Jan 2023 03:13:35 GMT</pubDate>
+            <content:encoded><![CDATA[<p>[[toc]]</p>
+<h2>什么是Hugo？</h2>
+<p><a href="https://gohugo.io/">Hugo</a>是一个快速且灵活的静态网站生成器，用于创建博客、文档和其他类型的网站。它使用Go语言编写，具有高性能和简便的使用体验，允许用户通过 Markdown 文件来管理内容，并支持主题定制和多种输出格式。</p>
+<h2>安装Hugo</h2>
+<p>安装方式有很多种，参考<a href="https://gohugo.io/installation/">官方文档</a>安装即可，Windows可下载对应的操作系统版本的Hugo二进制文件，并将二进制文件的放置路径配置在环境变量中，即可使用Hugo CLI来快速创建静态网站。</p>
+<pre><code class="language-bash">hugo version # 查看版本，验证安装情况
+</code></pre>
+<h2>生成站点</h2>
+<p>安装完成后，使用下面命令生成站点。</p>
+<pre><code class="language-bash">hugo new site blogDemo # 使用Hugo新建blogDemo项目，名称可自定义
+</code></pre>
+<p>用 Hugo 创建的网站共有 7 个文件夹和 1 个文件，这些文件分别代表：</p>
+<ul>
+<li>
+<p><strong>archetypes</strong>：存放用 hugo 命令新建的 Markdown 文件应用的 front matter 模版</p>
+</li>
+<li>
+<p><strong>content</strong>：存放内容页面，比如博客、笔记等</p>
+</li>
+<li>
+<p><strong>layouts</strong>：存放定义网站的样式，写在<code>layouts</code>文件下的样式会覆盖安装的主题中的 <code>layouts</code>文件同名的样式</p>
+</li>
+<li>
+<p><strong>static</strong>：存放所有静态文件，如图片</p>
+</li>
+<li>
+<p><strong>data</strong>：存放创建站点时 Hugo 使用的其他数据</p>
+</li>
+<li>
+<p><strong>public</strong>：存放 Hugo 生成的静态网页</p>
+</li>
+<li>
+<p><strong>themes</strong>：存放主题文件</p>
+</li>
+<li>
+<p><strong>config.toml</strong>：网站配置文件</p>
+</li>
+</ul>
+<blockquote>
+<p>[!IMPORTANT]<br>
+创建完项目后,在使用<code>hugo</code>命令时，当前目录下必须要有配置文件，即<code>config.toml</code></p>
+</blockquote>
+<p>新建完成后进入<strong>blogDemo</strong>目录可以看到网站的文件目录。</p>
+<pre><code class="language-bash">cd blogDemo # 进入blogDemo目录
+</code></pre>
+<h2>安装主题</h2>
+<p>Hugo的官网<a href="https://themes.gohugo.io/">主题</a>种类很多，基本能满足各类需求，安装只需把对应的主题clone到themes目录，具体的主题配置参考其文档即可，这里就以<a href="https://github.com/olOwOlo/hugo-theme-even">even主题</a>为例。</p>
+<pre><code class="language-bash">git clone https://github.com/olOwOlo/hugo-theme-even.git
+</code></pre>
+<h2>本地调试和预览</h2>
+<p>安装完主题后，在网站的配置文件目录，输入下面命令，就可以在本地预览了，服务器的默认地址是<TextCopy inline><a href="http://localhost:1313/">http://localhost:1313/</a></TextCopy>, 端口号可以通过 <strong>-p</strong> 参数自定义端口来修改。</p>
+<pre><code class="language-bash">hugo server # 启动本地调试服务
+</code></pre>
+<p>至此就可以在<strong>content</strong>下的<strong>post</strong>目录中添加文章，进行创作记录了。</p>
+<pre><code class="language-bash">hugo new post/demo.md
+# hugo new的命令格式
+# hugo new [path]
+</code></pre>
+<h2>构建网站</h2>
+<p>最后再通过下面命令，即可在<strong>public</strong>目录生成构建的产物，最后把生成的文件部署上服务器即可。</p>
+<pre><code class="language-bash">hugo build # 生成静态网站
+hugo --minify # 生成静态网站并进行压缩，可减少产物大小，建议使用该命令
+</code></pre>
+]]></content:encoded>
+            <author>zhiruhuang7@gmail.com (ihzurgnauh)</author>
+        </item>
+        <item>
+            <title><![CDATA[活在土里]]></title>
+            <link>https://ihzurgnauh.github.io/posts/memories-live-forever</link>
+            <guid>https://ihzurgnauh.github.io/posts/memories-live-forever</guid>
+            <pubDate>Sat, 01 Oct 2022 09:39:23 GMT</pubDate>
+            <content:encoded><![CDATA[<p>永远想念。</p>
+<p><img src="https://s2.loli.net/2024/12/08/1JG6HoUwnqmdTLP.jpg" alt="-"></p>
+]]></content:encoded>
+            <author>zhiruhuang7@gmail.com (ihzurgnauh)</author>
+        </item>
+    </channel>
+</rss>
